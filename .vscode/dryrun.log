@@ -1,0 +1,36 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/ulf/perl/perl-Convert-ASN1'
+"/usr/bin/perl" -MExtUtils::Command -e 'mkpath' -- blib/lib/Convert
+chmod 755 blib/lib/Convert
+touch blib/lib/Convert/.exists
+"/usr/bin/perl" -MExtUtils::Command -e 'mkpath' -- blib/arch
+chmod 755 blib/arch
+touch blib/arch/.exists
+"/usr/bin/perl" -MExtUtils::Command -e 'mkpath' -- blib/lib/auto/Convert/ASN1
+chmod 755 blib/lib/auto/Convert/ASN1
+touch blib/lib/auto/Convert/ASN1/.exists
+"/usr/bin/perl" -MExtUtils::Command -e 'mkpath' -- blib/arch/auto/Convert/ASN1
+chmod 755 blib/arch/auto/Convert/ASN1
+touch blib/arch/auto/Convert/ASN1/.exists
+"/usr/bin/perl" -MExtUtils::Command -e 'mkpath' -- blib/bin
+chmod 755 blib/bin
+touch blib/bin/.exists
+"/usr/bin/perl" -MExtUtils::Command -e 'mkpath' -- blib/script
+chmod 755 blib/script
+touch blib/script/.exists
+"/usr/bin/perl" -MExtUtils::Command -e 'mkpath' -- blib/man1
+chmod 755 blib/man1
+touch blib/man1/.exists
+"/usr/bin/perl" -MExtUtils::Command -e 'mkpath' -- blib/man3
+chmod 755 blib/man3
+touch blib/man3/.exists
+true
+true
+true
+true
+make: Leaving directory '/home/ulf/perl/perl-Convert-ASN1'
+ 
+make: *** No rule to make target '/usr/lib/x86_64-linux-gnu/perl/5.32/Config.pm', needed by 'Makefile'.
+make: *** No rule to make target '/usr/lib/x86_64-linux-gnu/perl/5.32/CORE/config.h', needed by 'Makefile'.
+make: Failed to remake makefile 'Makefile'.
+
