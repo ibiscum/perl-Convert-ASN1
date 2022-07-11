@@ -6,12 +6,12 @@ jobs:
     runs-on: windows-latest
     strategy:
       matrix:
-        perl: [ '5.34', '5.32' ]
+        perl: [ '5.32' ]
     name: Perl ${{ matrix.perl }}
     steps:
       - uses: actions/checkout@v2
       - name: Setup Perl
-        uses: shogo82148/actions-setup-perl@v1.16.2
+        uses: shogo82148/actions-setup-perl@v1.16.1
         with:
           perl-version: ${{ matrix.perl }}
           distribution: strawberry

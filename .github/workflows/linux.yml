@@ -19,12 +19,12 @@ jobs:
         # - '5.26'
         # - '5.28'
         # - '5.30'
-          - '5.32'
+        # - '5.32'
           - '5.34'
     steps:
       - uses: actions/checkout@v3
       - name: Setup Perl
-      - uses: shogo82148/actions-setup-perl@1.16.2
+      - uses: shogo82148/actions-setup-perl@1.16.1
         with:
           perl-version: ${{ matrix.perl-version }}
       - name: Perl Version
