@@ -30,11 +30,7 @@ jobs:
       - name: Perl Version
         run: perl -V
       - name: Install Dependencies
-        run: cpanm --installdeps .
-      - name: Build Module
-        run: |
-          perl Makefile.PL;
-          make
+        run: cpanm --notest --installdeps -v .
       - name: Run Tests
         run: |
-          prove -lr -l -b -I inc t
+          cpanm --test-only -v .
