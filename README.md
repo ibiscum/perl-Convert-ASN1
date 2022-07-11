@@ -1,3 +1,6 @@
+[![linux](https://github.com/ibiscum/perl-Convert-ASN1/actions/workflows/linux.yml/badge.svg)](https://github.com/ibiscum/perl-Convert-ASN1/actions/workflows/linux.yml)
+[![windows](https://github.com/ibiscum/perl-Convert-ASN1/actions/workflows/windows.yml/badge.svg)](https://github.com/ibiscum/perl-Convert-ASN1/actions/workflows/windows.yml)
+
 # Convert::ASN1
 
 Convert::ASN1 is a perl library for encoding/decoding data using
